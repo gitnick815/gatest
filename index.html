@@ -3,8 +3,8 @@
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127205425-1"></script> -->
-    <script src="js.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127205425-1"></script>
+   <!--  <script src="js.js"></script> -->
     <script>
         window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -20,6 +20,9 @@
     <div class="input-group">
         <input type="url" required="" placeholder="輸入要抓取的 URL。匯出成 Excel 表格。" name="url" style="padding:0 40px;">
         <button type="submit" id="try-listly" onclick="gtag('event','new');">
+            Try
+        </button>
+        <button type="submit" id="try-listly" onclick="gtag('event','old');">
             Try
         </button>
     </div>
